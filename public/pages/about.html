@@ -1,33 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>A propos</title>
-</head>
-<!--navbar-->
-<!--debut header-->
-<h2>
-Git is a free and open source distributed version control system designed to handle everything from small to very large
-projects with speed and efficiency.
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion,
-CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
-</h2>
-<!--fin header-->
 
-<!--section-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/public/css/style.css">
+        <title>Git</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <!--debut header-->
+        <header> 
+            <!--début navbar-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logogit" src="/public/img/logo@x2.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Exercices
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Exo-git1</a></li>
+                                    <li><a class="dropdown-item" href="#">Exo-git2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav><!--fin navbar-->
+        </header>
+        <!--fin header-->
+
+<!-- début section-->
+    <h2>About</h2>
+    
+    <div class="contenair"
+    <h4>Branching and Merging</h4>
+
+    <p>
+    The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model. 
+    </p>
+    
+    <p>
+    Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+    </p>
+
+    <p>
+    This means that you can do things like:
+    </p>
+
+    <ul>
+        <li>
+        <strong>Frictionless Context Switching.</strong> Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.
+        </li>
+
+        <li>
+        <strong>Role-Based Codelines.</strong> Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.
+        </li>
+
+        <li>
+        <strong>Feature Based Workflow.</strong> Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line.   
+        </li>
+
+        <li>
+        <strong>Disposable Experimentation.</strong> Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
+        </li>
+    </ul>
+    </div>
+
+
+    <p class="center">
+        <img src="/public/img/branches.png" width="500" height="288" alt="Schema branches">
+    </p>
+    
+
+    <p>
+    Notably, when you push to a remote repository, you do not have to push all of your branches. You can choose to share just one of your branches, a few of them, or all of them. This tends to free people to try new ideas without worrying about having to plan how and when they are going to merge it in or share it with others.
+    </p>
+
+
+    <p>
+    There are ways to accomplish some of this with other systems, but the work involved is much more difficult and error-prone. Git makes this process incredibly easy and it changes the way most developers work when they learn it.
+    </p>
+<!--fin section-->
 
 
 
+<!-- début footer-->
+<!--fin footer-->
 
 
-<!--footer-->
 
-
-<body>
 
 </body>
 
