@@ -1,0 +1,17 @@
+*{
+    background-color: rgba(240,239,231,255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1img {
+    max-width: 500px;
+    background-image: url('../img/backgrill.PNG');
+}
+.col-3{
+    background-image: url('../img/backgrill.PNG');
+}
+.p1p{
+    background-image: url('../img/backgrill.PNG');
+}
+.logogit{
+    max-width: 100px;
+}
