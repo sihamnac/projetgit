@@ -2,6 +2,7 @@
     background-color: rgba(240,239,231,255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .p1img {
     max-width: 500px;
     background-image: url('../img/backgrill.PNG');
@@ -33,3 +34,17 @@
 .pabout{
     margin-left: 50%;
 }
+.subtitle1{
+    font-size: 22px;
+    font-weight: bold;
+    color: orangered;
+    margin-left: 50%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    justify-content: center;
+    color: black;
+    margin-left: 50%;
+  }
