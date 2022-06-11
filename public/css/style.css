@@ -161,3 +161,30 @@ font-weight: bold;
     padding: 100px;
     background-color: rgba(240,239,231,255);
 }
+
+/* PAGE EXERCICES */
+.ETITLE1{
+    color: orangered;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 50%;
+    font-weight: bold;
+
+}
+.ETITLE2{
+    color: orangered;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.debexo1{
+    max-width: 500px;
+    background-image: url('../img/backgrill.PNG');
+}
+.debexo1{
+    max-width: 400px;
+}
