@@ -2,9 +2,10 @@
     background-color: rgba(240,239,231,255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.nav-brand {
-color: black;
-font-size: 50px;
+.exo{
+color: orangered;
+font-size: 30px;
+font-weight: bold;
 }
 .p1img {
     max-width: 500px;
@@ -13,8 +14,17 @@ font-size: 50px;
 .col-3{
     background-image: url('../img/backgrill.PNG');
 }
+.link{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
 .p1p{
+    font-size: 18px;
+    color: rgb(20, 22, 22);
     background-image: url('../img/backgrill.PNG');
+    margin-top: 25px;
+    
 }
 .logogit{
     max-width: 100px;
