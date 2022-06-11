@@ -33,20 +33,18 @@
 .pabout{
     margin-left: 50%;
 }
-.bloc h3{
+.bloc2 h3{
     color:black;
     height: 55px;
 }
 
-.bloc h4{
+.bloc1 h4{
     font-size: x-large;
     color: #ee4d34;
     height: 40px;
-    
-
-
+}
+.img{
+    align-content: center;
 
 }
-
-    
 
