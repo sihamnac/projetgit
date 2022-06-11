@@ -28,8 +28,37 @@
 .subtitle{
     font-size: 22px;
     font-weight: bold;
+<<<<<<< HEAD
     color: orangered;
+=======
+    color: #ff4500;
+>>>>>>> siham
 }
 .pabout{
     margin-left: 50%;
+}
+.contenair
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: start;
+}
+.bloc1 h3{
+    color:black;
+    height: 55px;
+    font-weight: bold;
+}
+
+.bloc1 h4{
+    font-size: x-large;
+    color: #ee4d34;
+    height: 40px;
+}
+.img{
+    align-content: center;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-bottom: 6%;
 }
