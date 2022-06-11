@@ -2,6 +2,11 @@
     background-color: rgba(240,239,231,255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.exo{
+color: orangered;
+font-size: 30px;
+font-weight: bold;
+}
 .p1img {
     max-width: 500px;
     background-image: url('../img/backgrill.PNG');
@@ -9,53 +14,109 @@
 .col-3{
     background-image: url('../img/backgrill.PNG');
 }
+.link{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
 .p1p{
+    font-size: 18px;
+    color: rgb(20, 22, 22);
     background-image: url('../img/backgrill.PNG');
+    margin-top: 25px;
+    
 }
 .logogit{
     max-width: 100px;
 }
 .col-2{
     background-color: rgba(240,239,231,255);
+
 }
 .docu{
     max-width: 80px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.exoimg{
+    max-width: 175px;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 18px;
+
+}
+.aboutimg{
+    max-width: 100px;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 .about{
     max-width: 80px;
     margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
+
 .subtitle{
     font-size: 22px;
     font-weight: bold;
     color: orangered;
-    color: #ff4500;
 }
 .pabout{
     margin-left: 50%;
+    margin-bottom: 50px;
+    text-align: justify;
 }
-.contenair
-{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    text-align: start;
+.pdoc{
+    margin-bottom: 50px;
+    max-width: 450px;
+    text-align: justify;
 }
-.bloc1 h3{
-    color:black;
-    height: 55px;
+.subtitle1{
+    font-size: 22px;
     font-weight: bold;
+    color: orangered;
+    margin-left: 50%;
+}
+/*  ZONE FOOTER   */
+.footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    background-color: rgba(240,239,231,255);
+    background-image: url('../img/backgrill.PNG');
+}
+.logofooter {
+    max-width: 150px;
+    background-image: url('../img/backgrill.PNG');
+    color: orangered;
+    font-size: 30px;
+font-weight: bold;
 }
 
-.bloc1 h4{
-    font-size: x-large;
-    color: #ee4d34;
-    height: 40px;
-}
-.img{
-    align-content: center;
-    margin-top: 6%;
-    margin-left: 20%;
-    margin-bottom: 6%;
+.footer-titre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 4rem;
+    background-image: url('../img/backgrill.PNG');
+  }
+.footer-titre a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    background-image: url('../img/backgrill.PNG');
+  }
+  .footerh3 {
+    text-align: center;
+  }
+.copyright{
+    text-align: center;
+    font-style: italic;
+    color: rgb(46, 41, 41);
+    background-image: url('../img/backgrill.PNG');
 }
