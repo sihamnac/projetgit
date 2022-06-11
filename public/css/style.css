@@ -39,6 +39,7 @@
     margin-right: 15%;
     margin-top: 5%;
     margin-bottom: 10%;
+    text-align: start;
 }
 .bloc1 h3{
     color:black;
@@ -58,4 +59,7 @@
     margin-left: 20%;
     margin-bottom: 6%;
 }
-
+.bloc2
+{
+ text-align: ;
+}
