@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 
 <head>
@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Git</title>
+    <title>A propos</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,10 +16,10 @@
 <body>
     <!--debut header-->
     <header>
-        <!--début navbar-->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logogit" src="/public/img/logo2x.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img class="logogit" src="/public/img/logo@2x.png" alt=""><span
+                        class="exo"> EXO</a></span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,142 +28,139 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#">A PROPOS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Exercices
+                                EXERCICES
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Exo-git1</a></li>
-                                <li><a class="dropdown-item" href="#">Exo-git2</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                            </ul>
+                                <li><a class="dropdown-item" href="#">DEBUTANT Nv1</a></li>
+                                <li><a class="dropdown-item" href="#">DEBUTANT Nv2</a></li>
+                                <li><a class="dropdown-item" href="#">INTERMEDIAIRE Nv1</a></li>
+                                <li><a class="dropdown-item" href="#">INTERMEDIAIRE Nv2</a></li>
+                                <hr class="dropdown-divider">
                         </li>
                     </ul>
+                    </li>
+                    </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Exercice..." aria-label="Search">
+                        <button class="btn" type="submit">Rechercher</button>
                     </form>
                 </div>
             </div>
         </nav>
-        <!--fin navbar-->
     </header>
     <!--fin header-->
-
-
-
     <!-- début section-->
-    <section class="contenair">
-        <div class="bloc1">
-
-            <h3>About</h3>
-            <h4>Branching and Merging</h4>
-
-            <p> 
-                The Git feature that really makes it stand apart from nearly every other SCM out there is its branching
-                model.
-            </p>
-
-            <p>
-                Git allows and encourages you to have multiple local branches that can be entirely independent of each
-                other. The creation, merging, and deletion of those lines of development takes seconds.
-            </p>
-            
-            <p>
-                This means that you can do things like:
-            </p>
-
-            <ul>
-            <li>
-                <strong>Frictionless Context Switching.</strong> Create a branch to try out an idea, commit a few times,
-                switch back to where you branched from, apply a patch, switch back to where you are experimenting, and
-                merge it in.
-            </li>
-            <br>
-            <li>
-                <strong>Role-Based Codelines.</strong> Have a branch that always contains only what goes to production,
-                another that you merge work into for testing, and several smaller ones for day to day work.
-            </li>
-            <br>
-            <li>
-                <strong>Feature Based Workflow.</strong> Create new branches for each new feature you're working on so
-                you can seamlessly switch back and forth between them, then delete each branch when that feature gets
-                merged into your main line.
-            </li>
-            <br>
-            <li>
-                <strong>Disposable Experimentation.</strong> Create a branch to experiment in, realize it's not going to
-                work, and just delete it - abandoning the work with nobody else ever seeing it (even if you've pushed
-                other branches in the meantime).
-            </li>
-            </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <H3 class="TITLE1">A PROPOS DE GIT</H3>
+            </div>
+            <div class="col-6">
+            </div>
         </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+                <p class="aboutp1">
+                    Git est un système de contrôle de version, gratuit et open source utilisé dans le
+                    monde entier. Reconnu par les professionnels de plusieurs secteurs pour son coté pratique et
+                    efficace, Git est aujourd’hui devenu incontournable pour quiconque s’intérèsse aux code ou à la
+                    programation. C’est pourquoi GitExo a centraliser ici même divers exercices pour vous permettre
+                    de progresser a votre rythme.
+                </p>
 
+            </div>
+            <div class="col-3">
+                <img class="aboutimg1" src="/public/img/branches.png" alt="Schema branches">
+            </div>
 
-        <p class="img">
-            <img src="/public/img/branches.png" width="500" height="288" alt="Schema branches"
-            
-        </p>
+            <div class="col-3">
 
-        <div class="bloc2">
-            <p>
-                Notably, when you push to a remote repository, you do not have to push all of your branches. You can choose
-                to share just one of your branches, a few of them, or all of them. This tends to free people to try new
-                ideas without worrying about having to plan how and when they are going to merge it in or share it with
-                others.
-            </p>
-            <br>
-            <p>
-                There are ways to accomplish some of this with other systems, but the work involved is much more difficult
-                and error-prone. Git makes this process incredibly easy and it changes the way most developers work when
-                they learn it.
-            </p>
+            </div>
         </div>
-
-    </section>
-    <!--fin section-->
-
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+            </div>
+            <div class="col-6">
+                <H3 class="TITLE2">LE PRINCIPE DE GIT</H3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+  <img class="imgabout" src="/public/img/branching-illustration2x.png" alt="">
+            </div>
+            <div class="col-3">
+                <p class="aboutp1"> Le principe de Git est assez simple. Imaginez un projet sous la forme d'un arbre. Chacun des
+                    collaborateurs est affecté a une branche sur laquelle il developpe son travail.
+                    A chaque étape de son travail, il peut effectuer une sauvegarde et celle-ci au lieu d'écraser
+                    les précédente sauvegarde va s'ajouter pour former une série de noueds, les "Commits" sur
+                    lesquelles il est possible de revenir pour récupérer le travail a l'état du moment de la
+                    sauvegarde.
+                    lorsque vous poussez vers un référentiel distant, vous n’avez pas besoin de pousser toutes vos
+                    branches. Vous pouvez choisir
+                    pour partager une seule de vos branches, quelques-unes d’entre elles ou toutes. Cela tend à
+                    libérer les gens pour qu’ils essaient de nouveaux
+                    sans se soucier d’avoir à planifier comment et quand ils vont les fusionner ou les partager avec
+                    autrui.
+                </p>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <div class="box"></div>
+        </section>
+        <!--fin section-->
         <!-- début footer-->
         <!--Footer-->
-    <footer>
-        <section id="companies-projects">
-            <h3 class="text-center"> Companies & Projects Using Git </h3>
-            <ul>
-                <li><a class="google" href="https://github.com/google">Google</a></li>
-                <li><a class="facebook" href="https://github.com/facebook">Facebook</a></li>
-                <li><a class="microsoft" href="https://github.com/Microsoft">Microsoft</a></li>
-                <li><a class="twitter" href="https://github.com/twitter">Twitter</a></li>
-                <li><a class="linked-in" href="https://github.com/linkedin">LinkedIn</a></li>
-                <li><a class="netflix" href="https://github.com/netflix">Netflix</a></li>
-                <li><a class="perl" href="https://perl5.git.perl.org/perl.git">Perl</a></li>
-                <li><a class="postgresql" href="https://git.postgresql.org/gitweb/">PostgreSQL</a></li>
+        <footer>
 
-                <li><a class="android" href="https://android-review.googlesource.com/#/q/status:open,n,z">Android</a>
-                </li>
-                <li><a class="linux" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git">Linux</a>
-                </li>
-                <li><a class="rails" href="https://github.com/rails/rails">Ruby on Rails</a></li>
-                <li><a class="qt" href="https://code.qt.io/cgit/">Qt</a></li>
-                <li><a class="gnome" href="https://gitlab.gnome.org/GNOME">Gnome</a></li>
-                <li><a class="eclipse" href="https://git.eclipse.org/c/">Eclipse</a></li>
-                <li><a class="kde" href="https://invent.kde.org/explore/groups">KDE</a></li>
-                <li><a class="x" href="https://cgit.freedesktop.org/xorg/xserver/">X</a></li>
-            </ul>
-        </section>
-    </footer>
+            <section id="companies-projects">
+                <h3 class="footerh3"> Quelques sociétés & projets qui utilisent Git</h3>
+                <div class="footer">
+                    <div class="footer-titre footer-1"><img class="logofooter" src="/public/img/logo@2x.png"
+                            alt=""><span class="logofooter">EXO</span>
+                    </div>
+                    <div class="footer-titre footer-1">
+                        <a class="" href="/public/pages/about.html">Á Propos</a>
+                        <a class="" href="public/pages/exercices.html">Exercices</a>
+                    </div>
+                    <div class="footer-titre footer-1">
+                        <a class="" href="https://github.com/google">Google</a>
+                        <a class="" href="https://github.com/facebook">Facebook</a>
+                    </div>
+                    <div class="footer-titre footer-1">
+                        <a class="" href="https://github.com/Microsoft">Microsoft</a>
+                        <a class="" href="https://github.com/twitter">Twitter</a>
+                    </div>
+                    <div class="footer-titre footer-3">
+                        <a class="" href="https://github.com/linkedin">LinkedIn</a>
+                        <a class="" href="https://github.com/netflix">Netflix</a>
+                    </div>
+                    <div class="footer-titre footer-3">
+                        <div class="copyright"><span>GITEXO</span> - <a class="link"
+                                href="https://www.molengeek.org/"><span class="link">MOLENGEEK</span> </a> PROJECT BY
+                            <span class="link">GARY & SIHAM</span></div>
+                    </div>
+
+                </div>
+
+            </section>
+        </footer>
         <!--fin footer-->
-
-
-
-
 </body>
-
 </html>

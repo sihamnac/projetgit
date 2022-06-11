@@ -120,3 +120,44 @@ font-weight: bold;
     color: rgb(46, 41, 41);
     background-image: url('../img/backgrill.PNG');
 }
+/* PAGE ABOUT */
+.aboutimg1{
+    max-width: 500px;
+    background-image: url('../img/backgrill.PNG');
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutp1{
+    max-width: 500px;
+    background-image: url('../img/backgrill.PNG');
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: rgb(20, 22, 22);
+}
+.imgabout{
+    background-image: url('../img/backgrill.PNG');
+}
+.TITLE1{
+    color: orangered;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 50%;
+    font-weight: bold;
+
+}
+.TITLE2{
+    color: orangered;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.box{
+    border: 1px rgba(240,239,231,255);
+    padding: 100px;
+    background-color: rgba(240,239,231,255);
+}
