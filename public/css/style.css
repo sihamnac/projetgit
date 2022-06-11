@@ -188,3 +188,11 @@ font-weight: bold;
 .debexo1{
     max-width: 400px;
 }
+.btn1 {
+    max-width: 300px;
+    text-decoration: none;
+    text-align: center;
+margin-left: 30%;
+font-size: 18px;
+color: black;
+}
