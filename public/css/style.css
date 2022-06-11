@@ -21,10 +21,14 @@
 }
 .docu{
     max-width: 80px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 .about{
     max-width: 80px;
     margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 .subtitle{
     font-size: 22px;
@@ -33,6 +37,10 @@
 }
 .pabout{
     margin-left: 50%;
+    margin-bottom: 50px;
+}
+.pdoc{
+    margin-bottom: 50px;
 }
 .subtitle1{
     font-size: 22px;
