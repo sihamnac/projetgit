@@ -2,7 +2,6 @@
     background-color: rgba(240,239,231,255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .p1img {
     max-width: 500px;
     background-image: url('../img/backgrill.PNG');
@@ -18,6 +17,7 @@
 }
 .col-2{
     background-color: rgba(240,239,231,255);
+
 }
 .docu{
     max-width: 80px;
@@ -41,10 +41,30 @@
     margin-left: 50%;
 }
 .footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    background-color: rgba(240,239,231,255);
+}
+.logofooter {
+    max-width: 100px;
+    margin-left: 15%;
+}
+.footer-titre {
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
-    justify-content: center;
+  }
+.footer-titre a {
+    text-decoration: none;
+    margin-bottom: 0.5rem;
     color: black;
-    margin-left: 50%;
+    font-size: 19px;
+  }
+  .footerh3 {
+
+    text-align: center;
   }
